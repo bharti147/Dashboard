@@ -1,0 +1,245 @@
+.card{
+    height: 100%;
+padding: 1rem .75rem ;
+display: flex;
+width: 20%;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+border-radius: 5px;
+border: none;
+}
+.card  .box{
+    height: 100%;
+   
+    width: 40%;
+    background-color: pink;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(40% at 50% 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card .box h2{
+    font-size: 2.5rem;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 1rem; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.card1 h3{
+    font-size: .90rem;
+    font-weight: 500;
+    color: rgb(152, 152, 152);
+}
+.card1 h2{
+font-size: 1.45rem;
+}
+.card1 p{
+    font-weight: 600;
+    font-size: .80rem;
+    color: rgb(53, 52, 52);
+}
+
+
+@media screen  and (max-width:1400px) and (min-width:1200px){
+
+    .card{
+        height: 40vh;
+    
+    width: 25%;
+   
+    flex-direction: column;
+justify-content: space-between;
+    
+    }
+    .card .box {
+       
+        height: 70%;
+       
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+    .card .box h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.card1 h3{
+    font-size: .80rem;
+    font-weight: 500;
+    color: rgb(152, 152, 152);
+}
+.card1 h2{
+font-size: 1rem;
+}
+.card1 p{
+    font-weight: 600;
+    font-size: .80rem;
+    color: rgb(53, 52, 52);
+}
+}
+
+
+@media screen  and (max-width:1200px) and (min-width:1024px){
+
+    .card{
+        height: 40vh;
+    
+    width: 25%;
+   
+    flex-direction: column;
+justify-content: space-between;
+    
+    }
+    .card .box {
+       
+        height: 70%;
+       
+        width: 70%;
+        margin-bottom: 1rem;
+    }
+    .card .box h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        /* font-size: 1rem; */
+        align-items: center;
+        /* border: 1px solid red; */
+        justify-content: center;
+    }
+    
+.card1 h3{
+    font-size: .80rem;
+    font-weight: 500;
+    color: rgb(152, 152, 152);
+}
+.card1 h2{
+font-size: 1rem;
+}
+.card1 p{
+    font-weight: 600;
+    font-size: .80rem;
+    color: rgb(53, 52, 52);
+}
+}
+
+
+@media screen  and (max-width:1024px) and (min-width:720px){
+
+    .card{
+        height: 35vh;
+    
+    width: 25%;
+    flex-direction: column;
+justify-content: space-between;
+    
+    }
+    .card .box {
+       
+        height: 100%;
+       
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .card .box h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        /* font-size: 1rem; */
+        align-items: center;
+        /* border: 1px solid red; */
+        justify-content: center;
+    }
+    
+.card1 h3{
+    font-size: .60rem;
+    font-weight: 500;
+    color: rgb(152, 152, 152);
+}
+.card1 h2{
+font-size: 1rem;
+}
+.card1 p{
+    font-weight: 600;
+    font-size: .50rem;
+    color: rgb(53, 52, 52);
+}
+}
+
+@media screen  and (max-width:720px) and (min-width:480px){
+
+    .card{
+        height: 35vh;
+    
+    width: 25%;
+    flex-direction: column;
+justify-content: space-between;
+    
+    }
+    .card .box {
+       
+        height: 100%;
+       
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .card .box h2{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .card1{
+        display: flex;
+        flex-direction: column;
+        /* font-size: 1rem; */
+        align-items: center;
+        /* border: 1px solid red; */
+        justify-content: center;
+    }
+    
+.card1 h3{
+    font-size: .60rem;
+    font-weight: 500;
+    color: rgb(152, 152, 152);
+}
+.card1 h2{
+font-size: 1rem;
+}
+.card1 p{
+    font-weight: 600;
+    font-size: .50rem;
+    color: rgb(53, 52, 52);
+}
+}
+
+
+@media screen  and (max-width:480px) and (min-width:320px){
+
+    .card{
+        height: 25vh;
+    
+    width: 100%;
+
+    margin-bottom: 2rem;
+    }
+    .card .box h2{
+        text-align: center;
+    }
+   
+}

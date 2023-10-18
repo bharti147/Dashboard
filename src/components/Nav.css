@@ -1,0 +1,301 @@
+.nav {
+  display: flex;
+  
+  flex-direction: column;
+  color: rgb(146, 147, 177);
+  background-color: rgb(4, 4, 64);
+  width: 15%;
+  height: 100%;
+
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 1rem;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(4, 4, 64);
+
+  overflow-y: auto; /* Add this to allow the content to be scrollable if it exceeds the viewport height */
+
+  z-index: 1; /* Add a higher z-index to ensure it appears on top of other content */
+}
+.bars{
+       
+    display: none;
+
+  }
+  .nav1{
+    display: none;
+    
+    flex-direction: column;
+    color: rgb(146, 147, 177);
+    background-color: rgb(4, 4, 64);
+    width: 15%;
+    height: 100%;
+  
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1rem;
+  
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(4, 4, 64);
+  
+    overflow-y: auto; /* Add this to allow the content to be scrollable if it exceeds the viewport height */
+  
+    z-index: 1; /* Add a higher z-index to ensure it appears on top of other content */
+  }
+.nav h1 {
+  margin: 1rem 0;
+  display: flex;
+  color: rgb(227, 227, 227);
+  align-items: center;
+  font-size: 1.5rem;
+}
+.nav ul {
+  list-style-type: none;
+  /* border: 1px solid white; */
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+.nav ul li {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.nav ul li div {
+  display: flex;
+  align-items: center;
+}
+
+.nav li:hover {
+  background-color: rgb(45, 45, 105);
+  border-radius: 5px;
+}
+.nav .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(45, 45, 105);
+  padding: 0.25rem 1rem;
+  border-radius: 5px;
+}
+.nav .profile1 {
+  display: flex;
+  flex-direction: column;
+}
+.nav .profile1 h4 {
+  color: white;
+  font-size: 0.85rem;
+}
+.nav .profile1 p {
+  font-size: 0.75rem;
+}
+.nav .profile h2 {
+  padding-bottom: 1rem;
+  /* border: 1px solid white; */
+}
+.nav .profile .icons {
+  font-size: 2rem;
+}
+
+/*  */
+.nav1 h1 {
+  margin: 1rem 0;
+  display: flex;
+  color: rgb(227, 227, 227);
+  align-items: center;
+  font-size: 1rem;
+}
+.nav1 ul {
+  list-style-type: none;
+  /* border: 1px solid white; */
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+.nav1 ul li {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.60rem;
+}
+.nav1 ul li div {
+  display: flex;
+  align-items: center;
+}
+
+.nav1 li:hover {
+  background-color: rgb(45, 45, 105);
+  border-radius: 5px;
+}
+.nav1 .profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(45, 45, 105);
+  padding: 0.15rem 0.35rem;
+  border-radius: 5px;
+}
+.nav1 .profile1 {
+  display: flex;
+  flex-direction: column;
+}
+.nav1 .profile1 h4 {
+  color: white;
+  font-size: 0.5rem;
+}
+.nav1 .profile1 p {
+  font-size: 0.5rem;
+}
+.nav1 .profile h2 {
+  padding-bottom: 1rem;
+  font-size: 0.90rem;
+  /* border: 1px solid white; */
+}
+.nav1 .profile .icons {
+  font-size: 1rem;
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+  .nav {
+    width: 15%;
+  }
+
+  .nav h1 {
+    font-size: 1rem;
+  }
+  .nav ul li {
+    font-size: 0.8rem;
+  }
+  .nav .profile1 h4 {
+    color: white;
+    font-size: 0.5rem;
+  }
+  .nav .profile1 p {
+    font-size: 0.55rem;
+  }
+  .nav .profile h2 {
+    padding-bottom: 0.5rem;
+  }
+  .nav .profile .icons {
+    font-size: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+    .nav {
+        width: 15%;
+      }
+    
+      .nav h1 {
+        font-size: 1rem;
+      }
+      .nav ul li {
+        font-size: 0.60rem;
+      }
+      .nav .profile1 h4 {
+        color: white;
+        font-size: 0.50rem;
+      }
+      .nav .profile1 p {
+        font-size: 0.45rem;
+      }
+      .nav .profile h2 {
+        padding-bottom: 0.5rem;
+      }
+      .nav .profile .icons {
+        font-size: 1rem;
+      }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 720px) {
+    .nav {
+        width: 18%;
+        padding: 1rem 0.50rem;
+      }
+    
+      .nav h1 {
+        font-size: .80rem;
+      }
+      .nav ul li {
+        font-size: 0.60rem;
+      }
+      .nav .profile{
+        padding:0.05rem .25rem;
+      }
+      .nav .profile1 h4 {
+        color: white;
+        font-size: 0.50rem;
+      }
+      .nav .profile1 p {
+        font-size: 0.45rem;
+      }
+      .nav .profile h2 {
+        padding-bottom: 0.5rem;
+      }
+      .nav .profile .icons {
+        font-size: 1rem;
+      }
+}
+
+@media screen and (max-width: 720px) and (min-width: 480px) {
+  .nav {
+    display: none;
+ 
+  
+  }
+  .nav1{
+    display:flex;
+    
+  }
+  .bars{
+    display: flex;
+   /* border: 1px solid white; */
+     /* width: 100%; */
+     width: 100%;
+     justify-content: flex-end;
+   
+  }
+  .nav1 .profile {
+   
+    padding: 0.35rem;
+   
+  }
+  .nav1 .profile1 h4 {
+    color: white;
+    font-size: 0.75rem;
+  }
+  .nav1 .profile1 p {
+    font-size: 0.5rem;
+  }
+  .nav1 .profile h2 {
+    padding-bottom: 1rem;
+    font-size: 0.80rem;
+    /* border: 1px solid white; */
+  }
+  .nav1 .profile .icons {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+  .nav {
+    display: none;
+  }
+  .nav1{
+    display:flex;
+    
+  }
+  .bars{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
